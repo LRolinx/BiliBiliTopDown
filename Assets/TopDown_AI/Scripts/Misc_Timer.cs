@@ -44,7 +44,7 @@ public class Misc_Timer {
 
 	public void StopTimer(){
 		_timer = 0.0f;
-		_timerFinished=false;
+		_timerFinished=true;
 		_timerActive = false;
 	}
 	public bool IsActive(){

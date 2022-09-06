@@ -5,6 +5,7 @@ public class Proyectile_Simple : MonoBehaviour, IPooledObject
 {
     public enum CollisionTarget { PLAYER, ENEMIES }
     public CollisionTarget collisionTarget;
+    public TrailRenderer trailRenderer;
     public float lifeTime = 3.0f;
     public float speed = 1.5f;
     public float harm = 5f;
@@ -74,6 +75,7 @@ public class Proyectile_Simple : MonoBehaviour, IPooledObject
 		gameObject.GetComponent<Collider> ().enabled = false;
 		moving = false;*/
         //Destroy(gameObject);
+        trailRenderer.Clear();
         gameObject.SetActive(false);
     }
 

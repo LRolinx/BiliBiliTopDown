@@ -47,7 +47,7 @@ public class AI_Enemy : MonoBehaviour, IPooledObject
     public void OnObjectSpawn()
     {
         currentBlood = defaultBlood;
-        SetWeapon(WeaponType.KNIFE);
+        SetWeapon(WeaponType.TNT);
     }
 
     private void Start()

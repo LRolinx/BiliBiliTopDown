@@ -230,8 +230,8 @@ public class AI_Player : MonoBehaviour, IPooledObject
                 Invoke("DoHitTest", 0.2f);
                 break;
             case WeaponType.PISTOL:
-                //决定单发还是多发
-                for (int i = 0; i < (ismultipleballistics ? 3 : 1); i++)
+                //决定单发还是双发
+                for (int i = 0; i < (ismultipleballistics ? 2 : 1); i++)
                 {
                     //GameObject birdshot = Instantiate(proyectilePrefab, weaponPivot.position, weaponPivot.rotation);
                     //birdshot.transform.Rotate(0, Random.Range(-15, 15), 0);
