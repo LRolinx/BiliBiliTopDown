@@ -231,7 +231,7 @@ MonoBehaviour:
     size: 100
   - tag: Proyectile_Player
     prefab: {fileID: 2559016053821447981, guid: 68060694acd98b8429ef313da1cf8940, type: 3}
-    size: 500
+    size: 700
   - tag: Small_Explositon
     prefab: {fileID: 1000013462590818, guid: 47e0633e9b67ec341b4be648594a36d4, type: 3}
     size: 50
